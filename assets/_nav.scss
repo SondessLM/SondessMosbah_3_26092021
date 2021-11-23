@@ -1,0 +1,56 @@
+.nav
+{
+   display: inline-flex;
+   background-color: $colour-greylight;
+   margin: 12px 23px 10px 29px;
+   padding: 10px 0px 10px 0px;
+   align-items: center;
+    width: 85%;
+   justify-content: left;
+   border-radius: 20px;
+   box-shadow: 3px 3px 10px $colour-shadow;
+
+   &:hover
+{
+   background-color: $colour-secondarylight;
+}
+
+   &--number
+{
+  
+
+   background-color:$colour-primary;
+   border: 1px solid $colour-primary;
+   border-radius: 50%;
+   padding:11px 0px 0px 3px;
+   margin: 0px 0px 0px -14px;
+   font-size: 12px;
+       
+}
+
+
+
+ &--logo
+{
+font-size: 25px;
+color:#7e7e7e ;
+margin:5px 20px 5px 20px;
+}
+&--titre
+{
+
+font-weight: 550;
+margin-left: 0.8rem;
+font-size: 1rem;
+
+}
+}
+.blanc 
+{  color:$colour-white;
+        margin-right: 11px;
+        margin-left: 8px;
+        font-size: 14px;
+        margin-top: -3px;
+        margin-bottom: 8px;
+        float: 10px;
+}

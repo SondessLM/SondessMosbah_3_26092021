@@ -1,0 +1,40 @@
+footer
+{
+    
+
+    background-color: rgba(0, 0, 0, 0.786);
+    
+    
+}
+
+.footer
+{  
+    margin: 26px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.proposition
+{  
+   display:inline-flex; 
+   align-items: center;
+   color: $colour-white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   }
+
+.proposition--1
+{
+  text-decoration: transparent;
+  margin: -2px 0px 0px 1px;
+  color:$colour-white;
+}
+.proposition--2
+{   
+  text-decoration:transparent;
+  color: $colour-white;
+  font-family: roboto, sans-serif;
+ 
+ 
+}

@@ -1,0 +1,37 @@
+@mixin boutton {
+  border-radius: 2rem;
+  border:0;
+  color:$colour-white;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  cursor: pointer;
+  text-decoration: transparent;
+  background-image:linear-gradient(to bottom, #FF79DA 1%, #9356DC 91%) ;
+  box-shadow: 5px 5px 5px $colour-shadow;
+ &:hover{
+ background-image:linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%) ;
+ padding: 1.1rem 1.6rem 1.1rem 1.6rem;
+ box-shadow: 10px 10px 10px $colour-shadow;}
+}
+@mixin coeur {
+  position: absolute;
+	cursor: pointer;
+	font-size: 23.5px;
+	right: 2.5rem;
+	top: 72.5rem;
+	opacity: transparent;
+    color:rgba(0, 0, 0, 0.705);
+  
+}
+
+@mixin price {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  margin-left: 79%;
+  font-weight: 550;
+  font-size: 15px;
+  margin-top: -40px;
+  padding-bottom: 10px;
+
+
+}
