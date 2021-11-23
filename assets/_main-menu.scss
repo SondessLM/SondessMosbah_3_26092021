@@ -48,14 +48,21 @@ width: 14%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     animation: affichage 1s forwards; 
     cursor: pointer;
+
     
     &:hover
 {
   
-   
-    transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
-    margin-left: 15px;
-    width: 64%;
+  transform: translateX(-63px);
+  transition-duration: 1s;
+  opacity: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 15px;
+  width:90%;
+   /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
+   /* margin-left: 15px;
+    width: 64%;*/
     
     
   
@@ -89,6 +96,7 @@ width: 14%;
 .details
 {
     @extend .titre;
+    width: 69%;
     font-weight: 500;
     margin-top: -10px;
     padding-bottom: 9px;
@@ -104,10 +112,13 @@ width: 14%;
 }
 .prix
 {
-    
-       @include price;
-       
-     }
+  @include price;
+ 
+}
+
+
+  
+
 
 .prix1
 {
@@ -162,29 +173,30 @@ width: 14%;
     padding: 17px;
     border-radius: 0 20% 20% 0;
     top:-1.5%;
-    left: 49%;
+    left: 83%;
     cursor: pointer;
     pointer-events: auto;
-    transform: translateX(97px);
+    /*transform: translateX(-85px);*/
     
     opacity: 0;
     }
    .plan__menu:hover > .select  
       {
       
+        transform: translateX(-10px);
+        transition-duration: 1s;
+        opacity: 1;
       
-      opacity: 1;
-   
  }    
  
   
 @keyframes selection {
     0%{
-      transform: translateX(150px);
+      transform: translateX(10px);
       opacity: 0;
     }
     100%{
-      transform: translateX(99px);
+      transform: translateX(-99px);
       opacity: 1;
     }
   }
@@ -242,7 +254,13 @@ margin-bottom: 10px;
 
   
   
-
+.plan__menu:hover > .prix 
+{
+  transform: translateX(-55px);
+  transition-duration: 1s;
+  opacity: 1;
+ 
+}
 
 .plan__menu:hover >.select >.fa-check-circle
 {

@@ -393,9 +393,16 @@ h5 {
   cursor: pointer;
 }
 .plan__menu:hover {
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  transform: translateX(-63px);
+  transition-duration: 1s;
+  opacity: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-left: 15px;
-  width: 64%;
+  width: 90%;
+  /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
+  /* margin-left: 15px;
+   width: 64%;*/
 }
 
 @keyframes affichage {
@@ -422,6 +429,7 @@ h5 {
 }
 
 .details {
+  width: 69%;
   font-weight: 500;
   margin-top: -10px;
   padding-bottom: 9px;
@@ -487,24 +495,26 @@ h5 {
   padding: 17px;
   border-radius: 0 20% 20% 0;
   top: -1.5%;
-  left: 49%;
+  left: 83%;
   cursor: pointer;
   pointer-events: auto;
-  transform: translateX(97px);
+  /*transform: translateX(-85px);*/
   opacity: 0;
 }
 
 .plan__menu:hover > .select, .plan__menu:hover > .select8, .plan__menu:hover > .select7, .plan__menu:hover > .select6, .plan__menu:hover > .select5, .plan__menu:hover > .select4, .plan__menu:hover > .select3, .plan__menu:hover > .select2, .plan__menu:hover > .select1 {
+  transform: translateX(-10px);
+  transition-duration: 1s;
   opacity: 1;
 }
 
 @keyframes selection {
   0% {
-    transform: translateX(150px);
+    transform: translateX(10px);
     opacity: 0;
   }
   100% {
-    transform: translateX(99px);
+    transform: translateX(-99px);
     opacity: 1;
   }
 }
@@ -542,6 +552,12 @@ h5 {
 
 .margin {
   margin-bottom: 10px;
+}
+
+.plan__menu:hover > .prix, .plan__menu:hover > .prix1, .plan__menu:hover > .prix2, .plan__menu:hover > .prix3, .plan__menu:hover > .prix4, .plan__menu:hover > .prix5, .plan__menu:hover > .prix6, .plan__menu:hover > .prix7, .plan__menu:hover > .prix8 {
+  transform: translateX(-55px);
+  transition-duration: 1s;
+  opacity: 1;
 }
 
 .plan__menu:hover > .select > .fa-check-circle, .plan__menu:hover > .select1 > .fa-check-circle, .plan__menu:hover > .select2 > .fa-check-circle, .plan__menu:hover > .select3 > .fa-check-circle, .plan__menu:hover > .select4 > .fa-check-circle, .plan__menu:hover > .select5 > .fa-check-circle, .plan__menu:hover > .select6 > .fa-check-circle, .plan__menu:hover > .select7 > .fa-check-circle, .plan__menu:hover > .select8 > .fa-check-circle {
@@ -588,12 +604,16 @@ footer {
 
 @media screen and (min-width: 375px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 56%;
+    left: 85%;
   }
 }
 @media screen and (min-width: 425px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 59%;
+    left: 87%;
+  }
+
+  .btn1 {
+    margin: 5% 25% 10% 25%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -732,9 +752,6 @@ footer {
     margin-right: -31px;
     margin-left: 19px;
   }
-  .plan--menu .btn1 {
-    margin: 8% 25% 10% 25%;
-  }
 
   .plan__menu {
     width: 88%;
@@ -742,7 +759,7 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 55%;
+    left: 82.5%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -881,6 +898,17 @@ footer {
 
   .nouveau1 {
     right: 79px;
+  }
+
+  /*carte menu*/
+  .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
+    left: 86.5%;
+  }
+
+  .plan__menu:hover > .select, .plan__menu:hover > .select1, .plan__menu:hover > .select2, .plan__menu:hover > .select3, .plan__menu:hover > .select4, .plan__menu:hover > .select5, .plan__menu:hover > .select6, .plan__menu:hover > .select7, .plan__menu:hover > .select8 {
+    transform: translateX(-20px);
+    transition-duration: 1s;
+    opacity: 1;
   }
 }
 @media (max-width: 1261px) and (min-width: 1169px) {

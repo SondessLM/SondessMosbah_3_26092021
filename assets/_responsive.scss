@@ -1,13 +1,17 @@
 @media screen and (min-width:375px) {
   .select {
-    left:56%;
+    left:85%;
   }
 }
 
 @media screen and (min-width:425px) {
   .select {
-    left:59%;
+    left:87%;
   }
+  .btn1 
+{
+  margin: 5% 25% 10% 25%;
+}
 }
 @media only screen and (min-width: 768px) 
 {
@@ -154,10 +158,8 @@ border-radius: 20px;
         display: inline-block;
         margin-right: -31px;
         margin-left: 19px;
-.btn1 {
-  margin: 8% 25% 10% 25%;
-  }
 }
+
 
 .plan__menu {
    
@@ -167,8 +169,10 @@ border-radius: 20px;
    
 }
 .select{
-  left:55%
+  left:82.5%
 }
+
+
 }
 @media (max-width:824px) and (min-width:809px)
 {
@@ -301,7 +305,19 @@ border-radius: 20px;
  {
      right: 79px;
   }
-
+/*carte menu*/
+.select
+{
+left:86.5%;
+}
+.plan__menu:hover > .select  
+      {
+      
+        transform: translateX(-20px);
+        transition-duration: 1s;
+        opacity: 1;
+      
+ } 
 }
 
  
