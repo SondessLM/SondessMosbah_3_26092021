@@ -902,13 +902,19 @@ footer {
 
   /*carte menu*/
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 86.5%;
+    left: 90%;
   }
 
   .plan__menu:hover > .select, .plan__menu:hover > .select1, .plan__menu:hover > .select2, .plan__menu:hover > .select3, .plan__menu:hover > .select4, .plan__menu:hover > .select5, .plan__menu:hover > .select6, .plan__menu:hover > .select7, .plan__menu:hover > .select8 {
-    transform: translateX(-20px);
-    transition-duration: 1s;
+    transform: translateX(-25px);
+    transition-duration: 1.1s;
     opacity: 1;
+  }
+
+  .btn1:hover {
+    background-image: linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%);
+    padding: 2rem 1.6rem 2rem 1.6rem;
+    box-shadow: 10px 10px 10px #dedada;
   }
 }
 @media (max-width: 1261px) and (min-width: 1169px) {

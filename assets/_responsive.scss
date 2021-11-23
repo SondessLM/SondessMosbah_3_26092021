@@ -308,16 +308,21 @@ border-radius: 20px;
 /*carte menu*/
 .select
 {
-left:86.5%;
+left:90%;
 }
 .plan__menu:hover > .select  
       {
       
-        transform: translateX(-20px);
-        transition-duration: 1s;
+        transform: translateX(-25px);
+        transition-duration: 1.1s;
         opacity: 1;
       
  } 
+.btn1:hover{
+  background-image:linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%) ;
+  padding: 2rem 1.6rem 2rem 1.6rem;
+  box-shadow: 10px 10px 10px $colour-shadow;
+}
 }
 
  
