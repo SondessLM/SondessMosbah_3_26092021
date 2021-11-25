@@ -169,7 +169,7 @@ border-radius: 20px;
    
 }
 .select{
-  left:82.5%
+  left:83%
 }
 
 
@@ -236,7 +236,7 @@ border-radius: 20px;
     { right:72px;}
     /*responsive menus*/
     .plan--menu {
-      margin-right: -62px;
+      margin-right: -32px;
       margin-left: 42px;
   }
 
@@ -308,7 +308,7 @@ border-radius: 20px;
 /*carte menu*/
 .select
 {
-left:90%;
+left:88%;
 }
 .plan__menu:hover > .select  
       {
@@ -318,11 +318,11 @@ left:90%;
         opacity: 1;
       
  } 
-.btn1:hover{
+  .btn1:hover{
   background-image:linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%) ;
   padding: 2rem 1.6rem 2rem 1.6rem;
   box-shadow: 10px 10px 10px $colour-shadow;
-}
+  }
 }
 
  
@@ -433,17 +433,18 @@ left:90%;
   
 }
   .btn1 {
-    margin: -12% 8% 7% 65%;
-    padding: 2%;}
+    margin:-12% 8% 7% 65%;
+    }
+}
+@media (max-width:1319px) and (min-width:1424px)
+/*carte menu*/
+{
+  .btn1 {
+    margin: 5% 36% 7% 31%;
+    }
 }
 
-@media only screen and (min-width: 1422px) {
-  /*respnsive menu*/
-  .btn1 {
-    margin: 7% 25% 10% 25%;
-  }
-  
-}
+
 
 @media only screen and (min-width: 1441px) {
   .fonctionnement {

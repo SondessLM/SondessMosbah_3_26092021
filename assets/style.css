@@ -398,8 +398,6 @@ h5 {
   opacity: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-left: 15px;
-  width: 90%;
   /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
   /* margin-left: 15px;
    width: 64%;*/
@@ -495,7 +493,7 @@ h5 {
   padding: 17px;
   border-radius: 0 20% 20% 0;
   top: -1.5%;
-  left: 83%;
+  left: 82%;
   cursor: pointer;
   pointer-events: auto;
   /*transform: translateX(-85px);*/
@@ -503,7 +501,7 @@ h5 {
 }
 
 .plan__menu:hover > .select, .plan__menu:hover > .select8, .plan__menu:hover > .select7, .plan__menu:hover > .select6, .plan__menu:hover > .select5, .plan__menu:hover > .select4, .plan__menu:hover > .select3, .plan__menu:hover > .select2, .plan__menu:hover > .select1 {
-  transform: translateX(-10px);
+  transform: translateX(-11px);
   transition-duration: 1s;
   opacity: 1;
 }
@@ -759,7 +757,7 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 82.5%;
+    left: 83%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -836,7 +834,7 @@ footer {
 
   /*responsive menus*/
   .plan--menu {
-    margin-right: -62px;
+    margin-right: -32px;
     margin-left: 42px;
   }
 }
@@ -902,7 +900,7 @@ footer {
 
   /*carte menu*/
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 90%;
+    left: 88%;
   }
 
   .plan__menu:hover > .select, .plan__menu:hover > .select1, .plan__menu:hover > .select2, .plan__menu:hover > .select3, .plan__menu:hover > .select4, .plan__menu:hover > .select5, .plan__menu:hover > .select6, .plan__menu:hover > .select7, .plan__menu:hover > .select8 {
@@ -1006,13 +1004,11 @@ footer {
 
   .btn1 {
     margin: -12% 8% 7% 65%;
-    padding: 2%;
   }
 }
-@media only screen and (min-width: 1422px) {
-  /*respnsive menu*/
+@media (max-width: 1319px) and (min-width: 1424px) {
   .btn1 {
-    margin: 7% 25% 10% 25%;
+    margin: 5% 36% 7% 31%;
   }
 }
 @media only screen and (min-width: 1441px) {
