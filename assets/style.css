@@ -757,11 +757,7 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 84%;
-  }
-
-  .select3, .select4, .select5 {
-    left: 86%;
+    left: 86.5%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -905,6 +901,10 @@ footer {
   /*carte menu*/
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
     left: 88%;
+  }
+
+  .select3, .select4, .select5 {
+    left: 87%;
   }
 
   .plan__menu:hover > .select, .plan__menu:hover > .select1, .plan__menu:hover > .select2, .plan__menu:hover > .select3, .plan__menu:hover > .select4, .plan__menu:hover > .select5, .plan__menu:hover > .select6, .plan__menu:hover > .select7, .plan__menu:hover > .select8 {

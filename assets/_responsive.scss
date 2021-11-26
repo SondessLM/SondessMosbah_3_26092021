@@ -169,13 +169,10 @@ border-radius: 20px;
    
 }
 .select{
-  left:84%;
+  left:86.5%;
 }
 
-.select3, .select4 , .select5
-{
-  left:86%
-}
+
 
 }
 @media (max-width:824px) and (min-width:809px)
@@ -310,9 +307,13 @@ border-radius: 20px;
      right: 79px;
   }
 /*carte menu*/
-.select
+.select{
+  left:88%;
+}
+
+.select3, .select4 , .select5
 {
-left:88%;
+  left:87%
 }
 .plan__menu:hover > .select  
       {
