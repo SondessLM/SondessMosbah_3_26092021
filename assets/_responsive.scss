@@ -1,12 +1,12 @@
 @media screen and (min-width:375px) {
   .select {
-    left:85%;
+    left:86%;
   }
 }
 
 @media screen and (min-width:425px) {
   .select {
-    left:87%;
+    left:90%;
   }
   .btn1 
 {
@@ -169,9 +169,13 @@ border-radius: 20px;
    
 }
 .select{
-  left:83%
+  left:84%;
 }
 
+.select3, .select4 , .select5
+{
+  left:86%
+}
 
 }
 @media (max-width:824px) and (min-width:809px)
@@ -425,22 +429,11 @@ left:88%;
 
   .plan__menu {
     width: 94%;
-    margin: 12px 92px 14px 20px;
-    
-   
-
-    
-  
+    margin: 12px 70px 14px 10px;
+      
 }
   .btn1 {
-    margin:-12% 8% 7% 65%;
-    }
-}
-@media (max-width:1319px) and (min-width:1424px)
-/*carte menu*/
-{
-  .btn1 {
-    margin: 5% 36% 7% 31%;
+    margin:8% 40% 7% 32%;
     }
 }
 

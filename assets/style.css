@@ -493,7 +493,7 @@ h5 {
   padding: 17px;
   border-radius: 0 20% 20% 0;
   top: -1.5%;
-  left: 82%;
+  left: 83%;
   cursor: pointer;
   pointer-events: auto;
   /*transform: translateX(-85px);*/
@@ -602,12 +602,12 @@ footer {
 
 @media screen and (min-width: 375px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 85%;
+    left: 86%;
   }
 }
 @media screen and (min-width: 425px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 87%;
+    left: 90%;
   }
 
   .btn1 {
@@ -757,7 +757,11 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 83%;
+    left: 84%;
+  }
+
+  .select3, .select4, .select5 {
+    left: 86%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -999,16 +1003,11 @@ footer {
 
   .plan__menu {
     width: 94%;
-    margin: 12px 92px 14px 20px;
+    margin: 12px 70px 14px 10px;
   }
 
   .btn1 {
-    margin: -12% 8% 7% 65%;
-  }
-}
-@media (max-width: 1319px) and (min-width: 1424px) {
-  .btn1 {
-    margin: 5% 36% 7% 31%;
+    margin: 8% 40% 7% 32%;
   }
 }
 @media only screen and (min-width: 1441px) {
