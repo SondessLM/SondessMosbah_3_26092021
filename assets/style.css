@@ -553,7 +553,7 @@ h5 {
 }
 
 .plan__menu:hover > .prix, .plan__menu:hover > .prix1, .plan__menu:hover > .prix2, .plan__menu:hover > .prix3, .plan__menu:hover > .prix4, .plan__menu:hover > .prix5, .plan__menu:hover > .prix6, .plan__menu:hover > .prix7, .plan__menu:hover > .prix8 {
-  transform: translateX(-55px);
+  transform: translateX(-45px);
   transition-duration: 1s;
   opacity: 1;
 }
@@ -753,11 +753,15 @@ footer {
 
   .plan__menu {
     width: 88%;
-    margin: 12px 92px 14px 20px;
+    margin: 12px 40px 14px 20px;
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 86.5%;
+    left: 84%;
+  }
+
+  .select3, .select4, .select5 {
+    left: 86%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -1003,7 +1007,7 @@ footer {
 
   .plan__menu {
     width: 94%;
-    margin: 12px 70px 14px 10px;
+    margin: 12px 84px 14px 10px;
   }
 
   .btn1 {

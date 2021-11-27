@@ -164,15 +164,18 @@ border-radius: 20px;
 .plan__menu {
    
     width: 88%;
-    margin: 12px 92px 14px 20px;
+    margin: 12px 40px 14px 20px;
     
    
 }
 .select{
-  left:86.5%;
+  left:84%;
 }
 
-
+.select3 , .select4 , .select5
+{
+  left:86%;
+}
 
 }
 @media (max-width:824px) and (min-width:809px)
@@ -302,6 +305,7 @@ border-radius: 20px;
  {
      right:645px;
  }
+
  .nouveau1
  {
      right: 79px;
@@ -430,7 +434,7 @@ border-radius: 20px;
 
   .plan__menu {
     width: 94%;
-    margin: 12px 70px 14px 10px;
+    margin: 12px 84px 14px 10px;
       
 }
   .btn1 {
