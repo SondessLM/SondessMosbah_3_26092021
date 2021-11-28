@@ -40,7 +40,7 @@ body {
   animation: attente1 2s linear infinite;
 }
 
-.fa-utensils {
+.fa-glass-cheers {
   content: "";
   position: fixed;
   display: flex;

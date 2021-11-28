@@ -40,7 +40,8 @@ body{
         border: 15px solid $colour-accent;
         animation: attente1 2s linear infinite;
     }
-    .fa-utensils
+    
+.fa-glass-cheers
     {
         
         content: "";
@@ -53,9 +54,7 @@ body{
         
     
     }
-      
-    
-
+   
 
  @keyframes attente {
     0% {
