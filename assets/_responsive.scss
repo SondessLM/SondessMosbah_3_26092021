@@ -169,13 +169,9 @@ border-radius: 20px;
    
 }
 .select{
-  left:83.5%;
+  left:83%;
 }
 
-.select3 , .select4 , .select5
-{
-  left:86%;
-}
 
 }
 @media (max-width:824px) and (min-width:809px)
@@ -485,7 +481,9 @@ margin: 12px 92px 14px 20px;
   margin-right: -66px;
   margin-left: 99px;
   }
-
+  .select.select, .select1, .select2, .select6, .select7, .select8{
+    left:86%;
+  }
 .btn1 {
   margin: 7% 25% 10% 25%;
 }
@@ -524,7 +522,12 @@ margin: 12px 92px 14px 20px;
     {
     right: 5rem;  
     }
-  
+
+    .select, .select1, .select2, .select6, .select7, .select8{
+      left:86%;
+    }
+   
+    
 }  
 @media only screen and (min-width: 1604px) {
 

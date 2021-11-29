@@ -757,11 +757,7 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 83.5%;
-  }
-
-  .select3, .select4, .select5 {
-    left: 86%;
+    left: 83%;
   }
 }
 @media (max-width: 824px) and (min-width: 809px) {
@@ -1058,6 +1054,10 @@ footer {
     margin-left: 99px;
   }
 
+  .select.select, .select3, .select4, .select5, .select1, .select2, .select6, .select7, .select8 {
+    left: 86%;
+  }
+
   .btn1 {
     margin: 7% 25% 10% 25%;
   }
@@ -1099,6 +1099,10 @@ footer {
 
   .heart8, .heart9 {
     right: 5rem;
+  }
+
+  .select, .select3, .select4, .select5, .select1, .select2, .select6, .select7, .select8 {
+    left: 86%;
   }
 }
 @media only screen and (min-width: 1604px) {
