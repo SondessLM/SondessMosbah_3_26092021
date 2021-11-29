@@ -602,12 +602,12 @@ footer {
 
 @media screen and (min-width: 375px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 86%;
+    left: 87%;
   }
 }
 @media screen and (min-width: 425px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 90%;
+    left: 87.5%;
   }
 
   .btn1 {
