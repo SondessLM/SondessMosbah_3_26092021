@@ -117,6 +117,10 @@ h5 {
   text-align: left;
 }
 
+h7 {
+  color: #000;
+}
+
 .btn, .btn1 {
   border-radius: 2rem;
   border: 0;
@@ -242,7 +246,7 @@ h5 {
   font-size: 14px;
   margin-top: -3px;
   margin-bottom: 8px;
-  float: 10px;
+  /*float: 10px;*/
 }
 
 .restaurant {
@@ -291,7 +295,7 @@ h5 {
   font-size: 23.5px;
   right: 2.5rem;
   top: 72.5rem;
-  opacity: transparent;
+  /*opacity: transparent;*/
   color: rgba(0, 0, 0, 0.705);
 }
 
@@ -349,7 +353,7 @@ h5 {
 
 .noir {
   color: inherit;
-  font-size: 5px 0px 5px 5px;
+  font-size: 5px;
 }
 
 /*cartes menus*/
@@ -375,10 +379,11 @@ h5 {
   margin-left: 15px;
   margin-bottom: 10px;
   font-size: 18px;
-  font-family: "Roboto," sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #7e7e7e;
   border-bottom: 5px solid #99E2D0;
   width: 14%;
+  /*height: 27px*/
 }
 
 .plan__menu {
@@ -752,7 +757,7 @@ footer {
 
   .plan--menu {
     display: inline-block;
-    margin-right: 0px;
+    margin-right: 42px;
     margin-left: 19px;
   }
 
@@ -762,7 +767,7 @@ footer {
   }
 
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 83%;
+    left: 85%;
   }
 }
 @media (max-width: 825px) and (min-width: 809px) {
@@ -839,7 +844,7 @@ footer {
 
   /*responsive menus*/
   .plan--menu {
-    margin-right: -32px;
+    margin-right: -42px;
     margin-left: 42px;
   }
 }
