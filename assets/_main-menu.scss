@@ -56,8 +56,6 @@ width: 14%;
   transform: translateX(-63px);
   transition-duration: 1s;
   opacity: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
   
  
    /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
@@ -88,7 +86,7 @@ width: 14%;
     padding-top: 1px;
     overflow: hidden;
     white-space: nowrap;
-    width: 80%;
+    width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -96,17 +94,24 @@ width: 14%;
 .details
 {
     @extend .titre;
-    width: 69%;
+    width: 90%;
     font-weight: 500;
     margin-top: -10px;
     padding-bottom: 9px;
     font-size: 14px;
  
 }
-.titre p
+.plan__menu:hover >.titre p
 {
   white-space: nowrap;
     width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.plan__menu:hover > .details
+{
+  white-space: nowrap;
+    width: 65%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
