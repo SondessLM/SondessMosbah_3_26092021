@@ -676,14 +676,14 @@ footer {
     flex-direction: row;
     align-items: center;
     align-content: space-between;
-    margin-right: 20px;
+    margin-right: 17px;
   }
 
   .restaurant-couverture {
     background-color: white;
     border-radius: 15px;
     cursor: pointer;
-    width: 346px;
+    width: 340px;
   }
 
   .heart, .heart2, .heart3, .heart4, .heart5, .heart6, .heart7, .heart8, .heart9, .heart1 {
@@ -760,7 +760,7 @@ footer {
     left: 83%;
   }
 }
-@media (max-width: 824px) and (min-width: 809px) {
+@media (max-width: 825px) and (min-width: 809px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
@@ -773,7 +773,7 @@ footer {
     width: 374px;
   }
 }
-@media (max-width: 920px) and (min-width: 825px) {
+@media (max-width: 922px) and (min-width: 824px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
@@ -783,7 +783,7 @@ footer {
   }
 
   .restaurant-couverture {
-    width: 397px;
+    width: 380px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -802,13 +802,13 @@ footer {
     right: 72px;
   }
 }
-@media (max-width: 1025px) and (min-width: 921px) {
+@media (max-width: 1025px) and (min-width: 923px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
 
   .restaurant-couverture {
-    width: 445px;
+    width: 438px;
     margin: 24px auto auto 2px;
   }
 
@@ -868,7 +868,7 @@ footer {
     right: 56px;
   }
 }
-@media (max-width: 1168px) and (min-width: 1074px) {
+@media (max-width: 1169px) and (min-width: 1074px) {
   .fonctionnement {
     right: 20px;
   }

@@ -79,7 +79,7 @@ border-radius: 20px;
     flex-direction: row;
     align-items: center;
     align-content: space-between;
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .restaurant-couverture {
@@ -87,7 +87,7 @@ border-radius: 20px;
     background-color: white;
     border-radius: 15px;
     cursor: pointer;
-    width: 346px;
+    width: 340px;
    }
    .heart , .heart1
    {
@@ -174,7 +174,7 @@ border-radius: 20px;
 
 
 }
-@media (max-width:824px) and (min-width:809px)
+@media (max-width:825px) and (min-width:809px)
 {
   .restaurant-affiche
     {margin-right:8px;}
@@ -187,7 +187,7 @@ border-radius: 20px;
  .restaurant-couverture 
          {width: 374px;}
 }
-@media (max-width:920px) and (min-width:825px){
+@media (max-width:922px) and (min-width:824px){
     
 .restaurant-affiche
     {margin-right:8px;}
@@ -198,7 +198,7 @@ border-radius: 20px;
         
     }
  .restaurant-couverture 
-         {width: 397px;}
+         {width: 380px;}
 .heart , .heart1  ,  .heart4 , .heart5
          {
             
@@ -213,13 +213,13 @@ border-radius: 20px;
 .nouveau1
 { right:72px;}
 }
-@media (max-width:1025px) and (min-width:921px){
+@media (max-width:1025px) and (min-width:923px){
     
 .restaurant-affiche
         {margin-right:8px;}
     
 .restaurant-couverture
- {width: 445px;
+ {width: 438px;
  margin: 24px auto auto 2px;
  }
             
@@ -274,7 +274,7 @@ border-radius: 20px;
   }
 
 }
-@media (max-width:1168px) and (min-width:1074px)
+@media (max-width:1169px) and (min-width:1074px)
 {
   .fonctionnement {
     
