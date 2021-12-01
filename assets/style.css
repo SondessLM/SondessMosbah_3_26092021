@@ -396,14 +396,19 @@ h7 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   animation: affichage 1s forwards;
   cursor: pointer;
-}
-.plan__menu:hover {
-  transform: translateX(-63px);
-  transition-duration: 1s;
-  opacity: 0;
+  /*&:hover
+  {
+
+    transform: translateX(-63px);
+    transition-duration: 1s;
+    opacity: 0;*/
   /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
   /* margin-left: 15px;
-   width: 64%;*/
+      width: 64%;
+
+
+
+  }*/
 }
 
 @keyframes affichage {
@@ -516,16 +521,16 @@ h7 {
   opacity: 1;
 }
 
-@keyframes selection {
-  0% {
-    transform: translateX(10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(-99px);
-    opacity: 1;
-  }
-}
+/*@keyframes selection {
+    0%{
+      transform: translateX(10px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(-99px);
+      opacity: 1;
+    }
+  }*/
 .select1 {
   top: -2%;
 }

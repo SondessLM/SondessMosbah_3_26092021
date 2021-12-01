@@ -51,21 +51,21 @@ width: 14%;
     cursor: pointer;
 
     
-    &:hover
+    /*&:hover
 {
   
   transform: translateX(-63px);
   transition-duration: 1s;
-  opacity: 0;
+  opacity: 0;*/
   
  
    /* transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;*/
    /* margin-left: 15px;
-    width: 64%;*/
+    width: 64%;
     
     
   
-}
+}*/
   }
 @keyframes affichage
 {
@@ -111,7 +111,7 @@ width: 14%;
 }
 .plan__menu:hover > .details
 {
-  white-space: nowrap;
+   white-space: nowrap;
     width: 65%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -196,7 +196,7 @@ width: 14%;
  }    
  
   
-@keyframes selection {
+/*@keyframes selection {
     0%{
       transform: translateX(10px);
       opacity: 0;
@@ -205,7 +205,7 @@ width: 14%;
       transform: translateX(-99px);
       opacity: 1;
     }
-  }
+  }*/
   
 
 
