@@ -1,12 +1,18 @@
-@media screen and (min-width:375px) {
+@media screen and (min-width:375px) 
+/*carte menu*/
+{
   .select {
-    left:85%;
+    left:86%;
+  }
+  .plan__menu{
+    width: 91%;
   }
 }
 
-@media screen and (min-width:425px) {
+@media screen and (min-width:425px)
+/*carte menu*/ {
   .select {
-    left:87.5%;
+    left:88%;
   }
   .btn1 
 {
@@ -16,7 +22,7 @@
 @media only screen and (min-width: 768px) 
 {
 /* tablette*/
-
+/*page d'acceuil*/
 .fonctionnement
 {
 width: 48%;
@@ -236,8 +242,8 @@ border-radius: 20px;
     { right:72px;}
     /*responsive menus*/
     .plan--menu {
-      margin-right: -42px;
-      margin-left: 42px;
+      margin-right: -27px;
+      margin-left: 36px;
   }
 
 }       

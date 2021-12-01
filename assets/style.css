@@ -568,7 +568,7 @@ h7 {
 }
 
 .plan__menu:hover > .prix, .plan__menu:hover > .prix1, .plan__menu:hover > .prix2, .plan__menu:hover > .prix3, .plan__menu:hover > .prix4, .plan__menu:hover > .prix5, .plan__menu:hover > .prix6, .plan__menu:hover > .prix7, .plan__menu:hover > .prix8 {
-  transform: translateX(-55px);
+  transform: translateX(-47px);
   transition-duration: 1s;
   opacity: 1;
 }
@@ -617,12 +617,16 @@ footer {
 
 @media screen and (min-width: 375px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 85%;
+    left: 86%;
+  }
+
+  .plan__menu {
+    width: 91%;
   }
 }
 @media screen and (min-width: 425px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 87.5%;
+    left: 88%;
   }
 
   .btn1 {
@@ -631,6 +635,7 @@ footer {
 }
 @media only screen and (min-width: 768px) {
   /* tablette*/
+  /*page d'acceuil*/
   .fonctionnement {
     width: 48%;
     position: absolute;
@@ -849,8 +854,8 @@ footer {
 
   /*responsive menus*/
   .plan--menu {
-    margin-right: -42px;
-    margin-left: 42px;
+    margin-right: -27px;
+    margin-left: 36px;
   }
 }
 @media (max-width: 1075px) and (min-width: 1024px) {
