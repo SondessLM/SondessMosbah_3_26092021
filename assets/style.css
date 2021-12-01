@@ -508,7 +508,7 @@ h7 {
   padding: 17px;
   border-radius: 0 20% 20% 0;
   top: -1.5%;
-  left: 83%;
+  left: 82%;
   cursor: pointer;
   pointer-events: auto;
   /*transform: translateX(-85px);*/
@@ -568,7 +568,7 @@ h7 {
 }
 
 .plan__menu:hover > .prix, .plan__menu:hover > .prix1, .plan__menu:hover > .prix2, .plan__menu:hover > .prix3, .plan__menu:hover > .prix4, .plan__menu:hover > .prix5, .plan__menu:hover > .prix6, .plan__menu:hover > .prix7, .plan__menu:hover > .prix8 {
-  transform: translateX(-45px);
+  transform: translateX(-55px);
   transition-duration: 1s;
   opacity: 1;
 }
@@ -617,7 +617,7 @@ footer {
 
 @media screen and (min-width: 375px) {
   .select, .select1, .select2, .select3, .select4, .select5, .select6, .select7, .select8 {
-    left: 87%;
+    left: 85%;
   }
 }
 @media screen and (min-width: 425px) {
